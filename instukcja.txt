@@ -1,0 +1,16 @@
+Zadaniem Użytkownika jest układanie opadających klocków w studni. Dopóki klocek spada,
+można go obracać, używając klawisza klawiatury (strzałki w górę), a także przesuwać na boki,
+używając klawiszy strzałek w bok. Kiedy na jednym poziomie cała szerokość studni zostanie
+zapełniona, elementy ją stanowiące znikają, a Użytkownik otrzymuje 10 punktów. Po uzyskaniu 10
+punktów Użytkownik przechodzi na średni poziom trudności, a po uzyskaniu 20 punktów – na poziom
+najtrudniejszy. Czarnych klocków nie da się przesuwać - są dodatkowym utrudnieniem dla Gracza.
+Gra kończy się, kiedy cała wysokość studni zostanie zapełniona.
+Aby rozpocząć grę, należy uruchomić aplikację, a następnie kliknąć klawisz "enter" i z menu
+głównego wybrać opcję „start”. Należy podać swoją nazwę i kliknąć „wyślij".
+Możliwa jest również gra sieciowa - wówczas z menu głównego należy wybrać opcję "gra sieciowa",
+podać swój login i kliknąć przycisk "login".
+Uruchamianie gry:
+1. Proszę zapisać plik tetris_new. jar na pulpicie.
+2. Proszę uruchomić terminal (konsolę).
+3. Proszę w wierszu poleceń wpisać komendę cd Desktop i kliknąć "enter".
+4. Proszę w wierszu poleceń wpisać komendę java -jar tetris_new.jar i kliknąć "enter".

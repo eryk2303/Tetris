@@ -1,0 +1,372 @@
+\hypertarget{class_tetris_box}{}\doxysection{Tetris\+Box Class Reference}
+\label{class_tetris_box}\index{TetrisBox@{TetrisBox}}
+Inheritance diagram for Tetris\+Box\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.860465cm]{class_tetris_box}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_tetris_box_afa3a39f0f2b9a78faa2a42885888d273}\label{class_tetris_box_afa3a39f0f2b9a78faa2a42885888d273}} 
+void {\bfseries setX} (int x)
+\item 
+\mbox{\Hypertarget{class_tetris_box_a3294958356762be665456449e9a1a325}\label{class_tetris_box_a3294958356762be665456449e9a1a325}} 
+void {\bfseries setY} (int y)
+\item 
+\mbox{\hyperlink{class_tetris_box_a74a3e68264fb821f0330ba402a6785e6}{Tetris\+Box}} (Color \mbox{\hyperlink{class_tetris_box_a5e03b8aec1f2653074e490cace71926c}{colour}}, int x, int y, int width, int height, int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_tetris_box_abde6e9c18e370b6f2ace61ff39de653e}{point}}, int quabtity)
+\item 
+\mbox{\Hypertarget{class_tetris_box_a302973a287e1630100232e0ae8148f71}\label{class_tetris_box_a302973a287e1630100232e0ae8148f71}} 
+void {\bfseries set\+Step} (int step)
+\item 
+void \mbox{\hyperlink{class_tetris_box_a1dfec9043f535441f16611fc91f01a68}{set\+Speed}} (int speed)
+\item 
+void \mbox{\hyperlink{class_tetris_box_a7496cb8e7f085d4ce3eb70574fb9625a}{set\+PointH}} (int\mbox{[}$\,$\mbox{]} h)
+\item 
+void \mbox{\hyperlink{class_tetris_box_ad64286471fc1dba389a0fa012c9bae45}{set\+PointW}} (int\mbox{[}$\,$\mbox{]} w)
+\item 
+void \mbox{\hyperlink{class_tetris_box_add460b191b12c580818589a219e90f0b}{set\+Width}} (int width)
+\item 
+void \mbox{\hyperlink{class_tetris_box_a7d8c973f3e9f45d7ee11f25191954c4c}{set\+Height}} (int height)
+\item 
+abstract void \mbox{\hyperlink{class_tetris_box_a64f0ca5e1e6006a7ac29b16add321105}{draw\+Shape}} (Graphics g, List$<$ \mbox{\hyperlink{class_tetris_box}{Tetris\+Box}} $>$ tetris\+Boxes)
+\item 
+int \mbox{\hyperlink{class_tetris_box_aac81e423e68eb130164427d8c8d9618a}{getY}} ()
+\item 
+int \mbox{\hyperlink{class_tetris_box_a5c42cbc220faaf5c4a1e8a297be0094f}{get\+Speed}} ()
+\item 
+abstract void \mbox{\hyperlink{class_tetris_box_a9534bf4f5afa6076e280793c2be9d11b}{rotate}} ()
+\item 
+int\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_tetris_box_a0d77d5075482cc533dbcb934c3c13fda}{get\+PointH}} ()
+\item 
+int\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_tetris_box_a08bc2a0781554ddf868d9531de7fc4b5}{get\+PointW}} ()
+\item 
+void \mbox{\hyperlink{class_tetris_box_a3043e485619cb21e7cc213d8d22a2723}{disappear}} (int number\+Delete)
+\item 
+void \mbox{\hyperlink{class_tetris_box_a33d0ed22402f2ffbd5d3de7f77c9612c}{move\+In\+Direction}} (String direction)
+\item 
+void \mbox{\hyperlink{class_tetris_box_a9ee5b5cac3124992e51e51039a1182f5}{point}} ()
+\item 
+void \mbox{\hyperlink{class_tetris_box_a181bf462b611bdcce032480e7d68e40d}{can\+Down}} ()
+\item 
+void \mbox{\hyperlink{class_tetris_box_a66d8d85b3f2e7e0d9f3a81f148c95be2}{end}} ()
+\item 
+\mbox{\Hypertarget{class_tetris_box_a7585447924805ccc437e13bff5f540e5}\label{class_tetris_box_a7585447924805ccc437e13bff5f540e5}} 
+void {\bfseries pointfree} ()
+\item 
+\mbox{\Hypertarget{class_tetris_box_a3cce75fe971b8b483953a9ff7f727664}\label{class_tetris_box_a3cce75fe971b8b483953a9ff7f727664}} 
+void {\bfseries set\+Point\+H\+Free} (int h\+Free)
+\item 
+\mbox{\Hypertarget{class_tetris_box_a1313d83329dd572fc1ff49108ce03bf2}\label{class_tetris_box_a1313d83329dd572fc1ff49108ce03bf2}} 
+void {\bfseries set\+Point\+W\+Free} (int w\+Free)
+\item 
+\mbox{\Hypertarget{class_tetris_box_a75cc16591062fddb480d88279197fac1}\label{class_tetris_box_a75cc16591062fddb480d88279197fac1}} 
+int {\bfseries get\+W\+Free} ()
+\item 
+\mbox{\Hypertarget{class_tetris_box_a77ff149fff9f0073b84a66ec26e7dc9b}\label{class_tetris_box_a77ff149fff9f0073b84a66ec26e7dc9b}} 
+int {\bfseries get\+H\+Free} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_tetris_box_a01ec227a93bc4044caefc9272a2717ac}\label{class_tetris_box_a01ec227a93bc4044caefc9272a2717ac}} 
+int {\bfseries countH} = 0
+\item 
+\mbox{\Hypertarget{class_tetris_box_a73a23ccf102bbb3b6a985f3671de4504}\label{class_tetris_box_a73a23ccf102bbb3b6a985f3671de4504}} 
+int {\bfseries coutD} = 1
+\item 
+\mbox{\Hypertarget{class_tetris_box_ab90974fbeca7c0b9c3066e5bd262e648}\label{class_tetris_box_ab90974fbeca7c0b9c3066e5bd262e648}} 
+int {\bfseries h\+Free} = 29
+\item 
+\mbox{\Hypertarget{class_tetris_box_a6344b1f0e03644b52a14d971db5d1f45}\label{class_tetris_box_a6344b1f0e03644b52a14d971db5d1f45}} 
+int {\bfseries w\+Free} = 29
+\item 
+\mbox{\Hypertarget{class_tetris_box_a40fee5264b6297a2d7eba27e10dd1d43}\label{class_tetris_box_a40fee5264b6297a2d7eba27e10dd1d43}} 
+int {\bfseries number} = 15
+\item 
+\mbox{\Hypertarget{class_tetris_box_a2f05b4f47205390f6234f594a87b28ff}\label{class_tetris_box_a2f05b4f47205390f6234f594a87b28ff}} 
+int {\bfseries step} = 1
+\item 
+int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_tetris_box_abde6e9c18e370b6f2ace61ff39de653e}{point}}
+\item 
+Color \mbox{\hyperlink{class_tetris_box_a5e03b8aec1f2653074e490cace71926c}{colour}}
+\item 
+\mbox{\Hypertarget{class_tetris_box_ac95a36a1d14d5ff2f348cd4f16923e0f}\label{class_tetris_box_ac95a36a1d14d5ff2f348cd4f16923e0f}} 
+int {\bfseries speed}
+\item 
+\mbox{\Hypertarget{class_tetris_box_ac787a9296a40d191927b90f15042624a}\label{class_tetris_box_ac787a9296a40d191927b90f15042624a}} 
+int {\bfseries x}
+\item 
+\mbox{\Hypertarget{class_tetris_box_a7d187a5f630d25c67884adbf82cd116f}\label{class_tetris_box_a7d187a5f630d25c67884adbf82cd116f}} 
+int {\bfseries y}
+\item 
+\mbox{\Hypertarget{class_tetris_box_a3aec59ccaec6185ca14ae2c8ef536667}\label{class_tetris_box_a3aec59ccaec6185ca14ae2c8ef536667}} 
+int {\bfseries width}
+\item 
+\mbox{\Hypertarget{class_tetris_box_abb5dd5cc97e2481af739619c63e18aed}\label{class_tetris_box_abb5dd5cc97e2481af739619c63e18aed}} 
+int {\bfseries height}
+\item 
+int \mbox{\hyperlink{class_tetris_box_a99cc69d0cb13b195fd2f223c7744f409}{count\+XP}}
+\item 
+int \mbox{\hyperlink{class_tetris_box_a98821035128f6e35ffa2dd902036ebd9}{pointH}} \mbox{[}$\,$\mbox{]} = new int\mbox{[}4\mbox{]}
+\item 
+\mbox{\Hypertarget{class_tetris_box_a58e0909942f08c57575fdc91181a7a3a}\label{class_tetris_box_a58e0909942f08c57575fdc91181a7a3a}} 
+int {\bfseries h} \mbox{[}$\,$\mbox{]} = new int\mbox{[}4\mbox{]}
+\item 
+\mbox{\Hypertarget{class_tetris_box_a10b4612c20e6bcf81dbdbccb5f78972a}\label{class_tetris_box_a10b4612c20e6bcf81dbdbccb5f78972a}} 
+int {\bfseries pointW} \mbox{[}$\,$\mbox{]} = new int\mbox{[}4\mbox{]}
+\item 
+\mbox{\Hypertarget{class_tetris_box_aff8fc6e7f4ade1ccd19e5b15b09d706d}\label{class_tetris_box_aff8fc6e7f4ade1ccd19e5b15b09d706d}} 
+int {\bfseries w} \mbox{[}$\,$\mbox{]} = new int\mbox{[}4\mbox{]}
+\item 
+int \mbox{\hyperlink{class_tetris_box_a4b1a93e2fc48541c1a95387930b68b03}{tmpX}} \mbox{[}$\,$\mbox{]} = new int\mbox{[}4\mbox{]}
+\item 
+\mbox{\Hypertarget{class_tetris_box_a022b1aed78e9c9a38c576d55da610861}\label{class_tetris_box_a022b1aed78e9c9a38c576d55da610861}} 
+int {\bfseries tmpY} \mbox{[}$\,$\mbox{]} = new int\mbox{[}4\mbox{]}
+\item 
+int \mbox{\hyperlink{class_tetris_box_a660ccad4a8ef5ce155d9df1230c4c474}{count}}
+\item 
+\mbox{\Hypertarget{class_tetris_box_aba5b8a5f67ed0e1057a2ef5f8ad1063a}\label{class_tetris_box_aba5b8a5f67ed0e1057a2ef5f8ad1063a}} 
+int {\bfseries quabtity}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+class representing a box 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_tetris_box_a74a3e68264fb821f0330ba402a6785e6}\label{class_tetris_box_a74a3e68264fb821f0330ba402a6785e6}} 
+\index{TetrisBox@{TetrisBox}!TetrisBox@{TetrisBox}}
+\index{TetrisBox@{TetrisBox}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{TetrisBox()}{TetrisBox()}}
+{\footnotesize\ttfamily Tetris\+Box.\+Tetris\+Box (\begin{DoxyParamCaption}\item[{Color}]{colour,  }\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{width,  }\item[{int}]{height,  }\item[{int}]{point\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]},  }\item[{int}]{quabtity }\end{DoxyParamCaption})}
+
+class constructor setting values 
+\begin{DoxyParams}{Parameters}
+{\em colour} & -\/ colour of boxes \\
+\hline
+{\em x} & -\/ x position of box \\
+\hline
+{\em y} & -\/ y position of box \\
+\hline
+{\em width} & -\/ actual frame width \\
+\hline
+{\em height} & -\/ actual frame height \\
+\hline
+{\em point} & -\/ table to write whether the field on the board is occupied \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_tetris_box_a181bf462b611bdcce032480e7d68e40d}\label{class_tetris_box_a181bf462b611bdcce032480e7d68e40d}} 
+\index{TetrisBox@{TetrisBox}!canDown@{canDown}}
+\index{canDown@{canDown}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{canDown()}{canDown()}}
+{\footnotesize\ttfamily void Tetris\+Box.\+can\+Down (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+method to control y movement 
+
+Reimplemented in \mbox{\hyperlink{class_treat_box_aaa21b7eabfb7975e34c892e6958a5e78}{Treat\+Box}}, and \mbox{\hyperlink{class_block_box_a29226a598bd4aeb75e8adb326a3cf676}{Block\+Box}}.
+
+\mbox{\Hypertarget{class_tetris_box_a3043e485619cb21e7cc213d8d22a2723}\label{class_tetris_box_a3043e485619cb21e7cc213d8d22a2723}} 
+\index{TetrisBox@{TetrisBox}!disappear@{disappear}}
+\index{disappear@{disappear}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{disappear()}{disappear()}}
+{\footnotesize\ttfamily void Tetris\+Box.\+disappear (\begin{DoxyParamCaption}\item[{int}]{number\+Delete }\end{DoxyParamCaption})}
+
+method to disappearance boxes and do \char`\"{}tetris\char`\"{} action 
+\begin{DoxyParams}{Parameters}
+{\em number\+Delete} & -\/ block row to be removed \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_tetris_box_a64f0ca5e1e6006a7ac29b16add321105}\label{class_tetris_box_a64f0ca5e1e6006a7ac29b16add321105}} 
+\index{TetrisBox@{TetrisBox}!drawShape@{drawShape}}
+\index{drawShape@{drawShape}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{drawShape()}{drawShape()}}
+{\footnotesize\ttfamily abstract void Tetris\+Box.\+draw\+Shape (\begin{DoxyParamCaption}\item[{Graphics}]{g,  }\item[{List$<$ \mbox{\hyperlink{class_tetris_box}{Tetris\+Box}} $>$}]{tetris\+Boxes }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+method responsible for drawing a box and stopping it at the bottom of the tunnel 
+\begin{DoxyParams}{Parameters}
+{\em g} & \\
+\hline
+{\em tetris\+Boxes} & -\/ list with tetris box \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{class_c_shape_box_ab8a26cb968d0d698ce6aca4e809c122c}{C\+Shape\+Box}}, \mbox{\hyperlink{class_b_shape_box_a69af39e3d0225c2b28631933dc415f7d}{B\+Shape\+Box}}, \mbox{\hyperlink{class_d_shape_box_acf67803427514eaa7f2393a7537dbad5}{D\+Shape\+Box}}, \mbox{\hyperlink{class_e_shape_box_aa688dec08fd955a1cfc8f724966266fa}{E\+Shape\+Box}}, \mbox{\hyperlink{class_a_shape_box_a2b2a8c2065edc1cb9ade0b8a025b6ab2}{A\+Shape\+Box}}, \mbox{\hyperlink{class_block_box_a18f69c35f75af13220e761eb431761ec}{Block\+Box}}, and \mbox{\hyperlink{class_treat_box_ad9f565f6e9b6be07855a00c3dc7eddd2}{Treat\+Box}}.
+
+\mbox{\Hypertarget{class_tetris_box_a66d8d85b3f2e7e0d9f3a81f148c95be2}\label{class_tetris_box_a66d8d85b3f2e7e0d9f3a81f148c95be2}} 
+\index{TetrisBox@{TetrisBox}!end@{end}}
+\index{end@{end}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{end()}{end()}}
+{\footnotesize\ttfamily void Tetris\+Box.\+end (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+method to set position when tetris goes to a new level \mbox{\Hypertarget{class_tetris_box_a0d77d5075482cc533dbcb934c3c13fda}\label{class_tetris_box_a0d77d5075482cc533dbcb934c3c13fda}} 
+\index{TetrisBox@{TetrisBox}!getPointH@{getPointH}}
+\index{getPointH@{getPointH}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{getPointH()}{getPointH()}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]} Tetris\+Box.\+get\+PointH (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+method to get to occupied places by box \begin{DoxyReturn}{Returns}
+-\/ occupied places by box 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_tetris_box_a08bc2a0781554ddf868d9531de7fc4b5}\label{class_tetris_box_a08bc2a0781554ddf868d9531de7fc4b5}} 
+\index{TetrisBox@{TetrisBox}!getPointW@{getPointW}}
+\index{getPointW@{getPointW}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{getPointW()}{getPointW()}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]} Tetris\+Box.\+get\+PointW (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+method to get to occupied places by box \begin{DoxyReturn}{Returns}
+-\/ occupied places by box 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_tetris_box_a5c42cbc220faaf5c4a1e8a297be0094f}\label{class_tetris_box_a5c42cbc220faaf5c4a1e8a297be0094f}} 
+\index{TetrisBox@{TetrisBox}!getSpeed@{getSpeed}}
+\index{getSpeed@{getSpeed}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{getSpeed()}{getSpeed()}}
+{\footnotesize\ttfamily int Tetris\+Box.\+get\+Speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+method to get actual speed \begin{DoxyReturn}{Returns}
+-\/ actual speed 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_tetris_box_aac81e423e68eb130164427d8c8d9618a}\label{class_tetris_box_aac81e423e68eb130164427d8c8d9618a}} 
+\index{TetrisBox@{TetrisBox}!getY@{getY}}
+\index{getY@{getY}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{getY()}{getY()}}
+{\footnotesize\ttfamily int Tetris\+Box.\+getY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+method to get y position \begin{DoxyReturn}{Returns}
+-\/ y position 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_tetris_box_a33d0ed22402f2ffbd5d3de7f77c9612c}\label{class_tetris_box_a33d0ed22402f2ffbd5d3de7f77c9612c}} 
+\index{TetrisBox@{TetrisBox}!moveInDirection@{moveInDirection}}
+\index{moveInDirection@{moveInDirection}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{moveInDirection()}{moveInDirection()}}
+{\footnotesize\ttfamily void Tetris\+Box.\+move\+In\+Direction (\begin{DoxyParamCaption}\item[{String}]{direction }\end{DoxyParamCaption})}
+
+method to change x position 
+\begin{DoxyParams}{Parameters}
+{\em direction} & -\/ x direction \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{class_treat_box_ad7062aa18f481e23caa6de050b5db9ac}{Treat\+Box}}.
+
+\mbox{\Hypertarget{class_tetris_box_a9ee5b5cac3124992e51e51039a1182f5}\label{class_tetris_box_a9ee5b5cac3124992e51e51039a1182f5}} 
+\index{TetrisBox@{TetrisBox}!point@{point}}
+\index{point@{point}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{point()}{point()}}
+{\footnotesize\ttfamily void Tetris\+Box.\+point (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+method to find occupied places by box \mbox{\Hypertarget{class_tetris_box_a9534bf4f5afa6076e280793c2be9d11b}\label{class_tetris_box_a9534bf4f5afa6076e280793c2be9d11b}} 
+\index{TetrisBox@{TetrisBox}!rotate@{rotate}}
+\index{rotate@{rotate}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{rotate()}{rotate()}}
+{\footnotesize\ttfamily abstract void Tetris\+Box.\+rotate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+method rotation box 
+
+Reimplemented in \mbox{\hyperlink{class_treat_box_a11d0df51aba0142b27c1abf036697dec}{Treat\+Box}}, \mbox{\hyperlink{class_c_shape_box_a029e6cd25014145268a4d9f2d0320a92}{C\+Shape\+Box}}, \mbox{\hyperlink{class_b_shape_box_a94267e3fc268ef530baef0d93b58cb05}{B\+Shape\+Box}}, \mbox{\hyperlink{class_d_shape_box_a3fa7c3c0cca11d13176ad86f44eeffe7}{D\+Shape\+Box}}, \mbox{\hyperlink{class_e_shape_box_a816af7d9b8135a16b711579f1b4701d6}{E\+Shape\+Box}}, \mbox{\hyperlink{class_a_shape_box_a284865d61a7490d114f9621926761105}{A\+Shape\+Box}}, and \mbox{\hyperlink{class_block_box_a73d1659861e001f2803a95c7e2236ce3}{Block\+Box}}.
+
+\mbox{\Hypertarget{class_tetris_box_a7d8c973f3e9f45d7ee11f25191954c4c}\label{class_tetris_box_a7d8c973f3e9f45d7ee11f25191954c4c}} 
+\index{TetrisBox@{TetrisBox}!setHeight@{setHeight}}
+\index{setHeight@{setHeight}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{setHeight()}{setHeight()}}
+{\footnotesize\ttfamily void Tetris\+Box.\+set\+Height (\begin{DoxyParamCaption}\item[{int}]{height }\end{DoxyParamCaption})}
+
+method to calibration and set actual height 
+\begin{DoxyParams}{Parameters}
+{\em height} & -\/ actual height \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_tetris_box_a7496cb8e7f085d4ce3eb70574fb9625a}\label{class_tetris_box_a7496cb8e7f085d4ce3eb70574fb9625a}} 
+\index{TetrisBox@{TetrisBox}!setPointH@{setPointH}}
+\index{setPointH@{setPointH}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{setPointH()}{setPointH()}}
+{\footnotesize\ttfamily void Tetris\+Box.\+set\+PointH (\begin{DoxyParamCaption}\item[{int\mbox{[}$\,$\mbox{]}}]{h }\end{DoxyParamCaption})}
+
+method to set occupied places by box 
+\begin{DoxyParams}{Parameters}
+{\em h} & -\/ table occupied places by box \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_tetris_box_ad64286471fc1dba389a0fa012c9bae45}\label{class_tetris_box_ad64286471fc1dba389a0fa012c9bae45}} 
+\index{TetrisBox@{TetrisBox}!setPointW@{setPointW}}
+\index{setPointW@{setPointW}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{setPointW()}{setPointW()}}
+{\footnotesize\ttfamily void Tetris\+Box.\+set\+PointW (\begin{DoxyParamCaption}\item[{int\mbox{[}$\,$\mbox{]}}]{w }\end{DoxyParamCaption})}
+
+method to set accupied places by box 
+\begin{DoxyParams}{Parameters}
+{\em w-\/} & table occupied places by box \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_tetris_box_a1dfec9043f535441f16611fc91f01a68}\label{class_tetris_box_a1dfec9043f535441f16611fc91f01a68}} 
+\index{TetrisBox@{TetrisBox}!setSpeed@{setSpeed}}
+\index{setSpeed@{setSpeed}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{setSpeed()}{setSpeed()}}
+{\footnotesize\ttfamily void Tetris\+Box.\+set\+Speed (\begin{DoxyParamCaption}\item[{int}]{speed }\end{DoxyParamCaption})}
+
+method to set speed 
+\begin{DoxyParams}{Parameters}
+{\em speed} & -\/ box speed \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_tetris_box_add460b191b12c580818589a219e90f0b}\label{class_tetris_box_add460b191b12c580818589a219e90f0b}} 
+\index{TetrisBox@{TetrisBox}!setWidth@{setWidth}}
+\index{setWidth@{setWidth}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{setWidth()}{setWidth()}}
+{\footnotesize\ttfamily void Tetris\+Box.\+set\+Width (\begin{DoxyParamCaption}\item[{int}]{width }\end{DoxyParamCaption})}
+
+method to calibration and set actual width 
+\begin{DoxyParams}{Parameters}
+{\em width} & -\/ actual widh \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_tetris_box_a5e03b8aec1f2653074e490cace71926c}\label{class_tetris_box_a5e03b8aec1f2653074e490cace71926c}} 
+\index{TetrisBox@{TetrisBox}!colour@{colour}}
+\index{colour@{colour}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{colour}{colour}}
+{\footnotesize\ttfamily Color Tetris\+Box.\+colour\hspace{0.3cm}{\ttfamily [protected]}}
+
+variable need to set colour \mbox{\Hypertarget{class_tetris_box_a660ccad4a8ef5ce155d9df1230c4c474}\label{class_tetris_box_a660ccad4a8ef5ce155d9df1230c4c474}} 
+\index{TetrisBox@{TetrisBox}!count@{count}}
+\index{count@{count}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{count}{count}}
+{\footnotesize\ttfamily int Tetris\+Box.\+count\hspace{0.3cm}{\ttfamily [protected]}}
+
+count to help good change x position \mbox{\Hypertarget{class_tetris_box_a99cc69d0cb13b195fd2f223c7744f409}\label{class_tetris_box_a99cc69d0cb13b195fd2f223c7744f409}} 
+\index{TetrisBox@{TetrisBox}!countXP@{countXP}}
+\index{countXP@{countXP}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{countXP}{countXP}}
+{\footnotesize\ttfamily int Tetris\+Box.\+count\+XP\hspace{0.3cm}{\ttfamily [protected]}}
+
+count to set proper direction \mbox{\Hypertarget{class_tetris_box_abde6e9c18e370b6f2ace61ff39de653e}\label{class_tetris_box_abde6e9c18e370b6f2ace61ff39de653e}} 
+\index{TetrisBox@{TetrisBox}!point@{point}}
+\index{point@{point}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{point}{point}}
+{\footnotesize\ttfamily int \mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} Tetris\+Box.\+point\hspace{0.3cm}{\ttfamily [protected]}}
+
+table to write whether the field on the board is occupied \mbox{\Hypertarget{class_tetris_box_a98821035128f6e35ffa2dd902036ebd9}\label{class_tetris_box_a98821035128f6e35ffa2dd902036ebd9}} 
+\index{TetrisBox@{TetrisBox}!pointH@{pointH}}
+\index{pointH@{pointH}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{pointH}{pointH}}
+{\footnotesize\ttfamily int Tetris\+Box.\+pointH\mbox{[}$\,$\mbox{]} = new int\mbox{[}4\mbox{]}\hspace{0.3cm}{\ttfamily [protected]}}
+
+table to return occupied places by box \mbox{\Hypertarget{class_tetris_box_a4b1a93e2fc48541c1a95387930b68b03}\label{class_tetris_box_a4b1a93e2fc48541c1a95387930b68b03}} 
+\index{TetrisBox@{TetrisBox}!tmpX@{tmpX}}
+\index{tmpX@{tmpX}!TetrisBox@{TetrisBox}}
+\doxysubsubsection{\texorpdfstring{tmpX}{tmpX}}
+{\footnotesize\ttfamily int Tetris\+Box.\+tmpX\mbox{[}$\,$\mbox{]} = new int\mbox{[}4\mbox{]}\hspace{0.3cm}{\ttfamily [protected]}}
+
+table with actual position 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/erykw/\+One\+Drive -\/ Politechnika Warszawska/\+Tetris/src/Tetris\+Box.\+java\end{DoxyCompactItemize}
